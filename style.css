@@ -1,0 +1,208 @@
+* { 
+    max-width: 1500px; 
+    text-align: center; 
+} 
+body {
+    background-color: #d7d549;
+    font-family: "Jaro", sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    
+}
+.jaro {  
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style::content;
+    font-family: 'Roboto', sans-serif;
+}
+.header { 
+    background-image: url('img/running.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    margin-top: 50px;
+    height: 300px;
+    image-resolution: 1080px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    text-decoration:double;
+    color: white; 
+} 
+img{
+    width: 800px;
+    height: 300px;
+}
+strong{
+    color: #000000;
+    font-size: 4rem;
+}
+.header-content { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;  
+    margin-right: 550px;
+    margin-bottom: 100px;
+    width: 210px; 
+    height: 150px;
+    padding: 20px; 
+
+}
+
+.header-title { 
+    background-color: transparent;
+    box-sizing: border-box;
+    height: auto;
+    width: 200px;
+    font-size: 1.5rem; 
+    font-weight:bolder; 
+    text-decoration: double;
+} 
+
+
+
+.search-bar { 
+    margin-top: 20px; 
+    background-color: #d7d549;
+}
+nav {
+    background-color: rgb(17, 17, 16);
+    color: rgb(241, 239, 239);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    border-bottom: 2px;
+} 
+nav a {
+    color: #d7d549; 
+    margin:  15px;
+    width: 1500px;
+    text-decoration: none; 
+    margin-top: 0;
+    text-align: justify;
+}
+
+nav a:hover {
+    color: #ddf312; 
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+    text-align: center;
+   
+}
+.navbar { 
+    background-color: rgb(14, 13, 13); 
+    color: white; 
+    height: 50px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    position: fixed; 
+    top: 0; 
+    border-bottom: 2px solid #d8a600; 
+    z-index: 1000; 
+} 
+.nav-list { 
+    list-style-type: none; 
+    margin: 0; padding: 0; display: flex; } 
+    
+.nav-item {
+    margin: 0 15px; 
+} 
+
+.nav-item a {
+    color: white; 
+    text-decoration: none; 
+    padding: 15px 10px; 
+    display: block; 
+} 
+.nav-item a:hover {
+    color: #d7d549; 
+}
+h1 {
+    font-size: xx-large;
+   color: #000000;
+   margin-top: 100px;
+    
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3%;
+    background-color: rgb(10, 10, 10);
+    color: gold;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #d7d549;
+}
+.cuerpo{
+    color: #d7d549;
+    font-size: 3rem;
+
+}
+
+.container {
+     display: flex; 
+     color: #000000;
+     justify-content: space-between; 
+     padding: 20px; 
+     margin-bottom: 30px;
+     gap: 10px;
+     grid-template-columns: 1fr 1fr 1fr;
+} 
+.box { 
+    width: 100% ;
+    margin: 20px;
+    border-radius:6px ;
+    overflow: hidden;
+    background: #fff ;
+    box-shadow: 0 1px 10px rgba(175, 168, 168, 0.2);
+    cursor:default;
+}
+.oferta{
+    color: #d7d549;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+h2{
+    padding-top: 20px ;
+    color: #d7d549;
+    font-size: 4rem;
+    margin-top: 20px;
+    text-decoration: wavy solid;
+}
+.YDA-SPORT{
+    color: #d7d549;
+    font-size: 3rem;
+    margin-top: 80px;
+}
+text{
+    color: #d7d549;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+img{
+    height: 100px;
+    width: 90px;
+    margin-left: 50px;
+}
+div{
+    margin-top: 10px;
+    inline-size: none;
+    display: flex;
+    flex-flow: ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
